@@ -32,7 +32,7 @@ def get_response(prompt, memory, api_key):
 
 if __name__ == '__main__':
     # 1. 创建提示词对象
-    prompt = '德国的高速公路真的有人开到300km/h吗？'
+    prompt = ''
 
     # 2. 创建会话记忆体对象
     memory = ConversationBufferMemory(return_messages=True)
